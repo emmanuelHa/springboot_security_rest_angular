@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.eh.home.proj1"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "monolith",
+    "baseName": "proj1",
+    "packageName": "com.eh.home.proj1",
+    "packageFolder": "com/eh/home/proj1",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTQwMzI5MGRjMDAwZDQ3OWIxNjM2MGFiZTJkZWE5Zjk4MjU0ZDc4NDU1NGQ1NGNhOTY2YzYzZTU2MjRkNWJhODc0MTJiY2ExMWYzYTE1YzBiMGM2OTQyZmQwNzI2NTZhN2NjN2ZiMTk2MzM4ZWM3ZTc2YjAxYTI4MzM3YzRjODQ=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
