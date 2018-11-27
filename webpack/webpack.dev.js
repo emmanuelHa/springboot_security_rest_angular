@@ -13,7 +13,7 @@ const commonConfig = require('./webpack.common.js');
 
 const ENV = 'development';
 
-module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
+module.exports = (options) => webpackMerge(commonConfig({ env: ENV, profile: options.profile }), {
     devtool: 'eval-source-map',
     devServer: {
         contentBase: './target/www',

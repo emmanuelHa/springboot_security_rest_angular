@@ -25,6 +25,16 @@ will generate few files:
     update src/main/webapp/app/app.module.ts
 
 
+### Standalone Development
+
+During backend development, you can disable cross cutting concerns (discovery, security, cors etc), with an add-on standalone profile. Simply run:
+
+    ./mvnw -Pdev,standalone
+
+To start frontend in standalone mode, use following script:
+
+    npm run start:standalone
+
 ## Building for production
 
 To optimize the proj1 application for production, run:

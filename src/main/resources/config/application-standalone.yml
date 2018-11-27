@@ -1,0 +1,8 @@
+jhipster:
+    cors:
+        allowed-origins: '*'
+        allowed-methods: GET, PUT, POST, DELETE, OPTIONS
+        allowed-headers: '*'
+        exposed-headers: 'Authorization,Link,X-Total-Count'
+        allow-credentials: true
+        max-age: 1800

@@ -29,5 +29,10 @@
     "jhiPrefix": "jhi",
     "otherModules": [],
     "enableTranslation": false
+  },
+  "generator-jhipster-standalone-profile": {
+    "version": "2.2.0",
+    "client": true,
+    "server": true
   }
 }

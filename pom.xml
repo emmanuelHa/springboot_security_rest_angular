@@ -1092,6 +1092,12 @@
                 </dependency>
             </dependencies>
         </profile>
+        <profile>
+            <id>standalone</id>
+            <properties>
+                <spring.profiles.active>dev,standalone${profile.swagger}${profile.no-liquibase}</spring.profiles.active>
+            </properties>
+        </profile>
         <!-- jhipster-needle-maven-add-profile -->
     </profiles>
 </project>
